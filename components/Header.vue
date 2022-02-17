@@ -1,11 +1,12 @@
 <template>
-<div>
-  <!-- <Navbar /> -->
-</div>
+ 
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
-}
+  name: "header",
+};
 </script>
+
+<style lang="scss" scoped>
+</style>
