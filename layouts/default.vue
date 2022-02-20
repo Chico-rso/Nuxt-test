@@ -1,19 +1,23 @@
 <template>
   <div>
+    <Navbar />
     <main>
-      <div>
-        <Nuxt />
-        <Navbar/>
+      <div class="container">
+        <nuxt />
       </div>
     </main>
   </div>
 </template>
 
 <script>
-import Navbar from "../components/Navbar.vue";
+import Index from "@/pages/index.vue";
+import Navbar from "@/components/Navbar.vue";
+import About from "@/pages/about.vue";
 export default {
   components: {
+    Index,
     Navbar,
+    About,
   },
 };
 </script>
